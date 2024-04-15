@@ -23,3 +23,9 @@
 - Hash Tables: A data structure that implements an associative array abstract data type, mapping keys to values using a hash function. It allows for efficient insertion, deletion, and lookup operations.
 
 - Graphs: A non-linear data structure consisting of vertices (nodes) and edges (connections) between them. Graphs can be directed or undirected and may have weighted or unweighted edges.
+
+
+## 🚀 Hackerrank Tutorial Live Videos <a name="live-demo"></a>
+
+- Diagonal Difference: Given a square matrix, calculate the absolute difference between the sums of its diagonals
+- [Live Demo Link](https://www.loom.com/share/9323eaf47ec34210930bbbf2fe367f78?sid=1daf348f-5f77-4dd6-b1c8-70f590603896)
