@@ -28,4 +28,7 @@
 ## 🚀 Hackerrank Tutorial Live Videos <a name="live-demo"></a>
 
 - Diagonal Difference: Given a square matrix, calculate the absolute difference between the sums of its diagonals
-- [Live Demo Link](https://www.loom.com/share/9323eaf47ec34210930bbbf2fe367f78?sid=1daf348f-5f77-4dd6-b1c8-70f590603896)
+- [Live Demo](https://www.loom.com/share/9323eaf47ec34210930bbbf2fe367f78?sid=1daf348f-5f77-4dd6-b1c8-70f590603896)
+
+- [Continuation of Live Demo](https://www.loom.com/share/5b3b7412d7b349dc8f0218617434d5d5?sid=79212e4b-2f63-48df-aafe-499a96c73034)
+
