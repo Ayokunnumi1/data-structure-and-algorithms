@@ -49,3 +49,10 @@
 // Explanation
 
 // The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of n = 6
+
+function stairCase(n) {
+    for (let i = 1; i <= n; i++) {
+        console.log(" ".repeat(n -i) + "#".repeat(i))
+    }
+}
+stairCase(6)
