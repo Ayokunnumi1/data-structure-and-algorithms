@@ -26,4 +26,9 @@
 // Input Format
 
 // The first line contains a single integer, , the number of students.
-// Each line  of the  subsequent lines contains a single integer, .
+// Each line  of the  subsequent lines contains a single integer, 
+
+function gradingStudents(grades) {
+    // Write your code here
+
+}
