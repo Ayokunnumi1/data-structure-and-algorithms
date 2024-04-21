@@ -28,7 +28,34 @@
 // The first line contains a single integer, , the number of students.
 // Each line  of the  subsequent lines contains a single integer, 
 
-function gradingStudents(grades) {
+// function gradingStudents(grades) {
     // Write your code here
 
+// }
+
+function gradingStudents(grades) {
+    // Create an array to store rounded grades
+    let roundedGrades = [];
+    
+    // Iterate through each grade
+    for (let grade of grades) {
+        // Calculate the next multiple of 5
+        let nextMultipleOf5 = Math.ceil(grade / 5) * 5;
+        
+        // Check if the grade is less than 38 or cannot be rounded
+        if (grade < 38 || nextMultipleOf5 - grade >= 3) {
+            // Add the original grade to the rounded grades array
+            roundedGrades.push(grade);
+        } else {
+            // Round the grade up to the next multiple of 5
+            roundedGrades.push(nextMultipleOf5);
+        }
+    }
+    
+    // Return the array of rounded grades
+    return roundedGrades;
 }
+
+// Example usage:
+let grades = [73, 67, 38, 33];
+console.log(gradingStudents(grades)); // Output: [75, 67, 40, 33]
