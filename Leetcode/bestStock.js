@@ -18,3 +18,32 @@
 // Output: 0
 // Explanation: In this case, no transactions are done and the max profit = 0.
 
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfit = function (prices) {
+
+    let maxProfit = 0;
+    let buy = 0; // Pointer for buying price
+    let sell = 1; // Pointer for selling price
+
+    while (sell < prices.length) {
+        if (prices[sell] > prices[buy]) {
+            // If current selling price is greater than buying price,
+            // calculate the profit and update maxProfit if necessary
+            let profit = prices[sell] - prices[buy];
+            if (profit > maxProfit) {
+                maxProfit = profit;
+            }
+        } else {
+            // If current selling price is less than or equal to buying price,
+            // update the buying price to the current selling price
+            buy = sell;
+        }
+        // Move the selling pointer to the next day
+        sell++;
+    }
+
+    return maxProfit;
+};
