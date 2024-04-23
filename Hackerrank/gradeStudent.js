@@ -58,4 +58,4 @@ function gradingStudents(grades) {
 
 // Example usage:
 let grades = [73, 67, 38, 33];
-console.log(gradingStudents(grades)); // Output: [75, 67, 40, 33]
+console.log(gradingStudents(grades)); 
