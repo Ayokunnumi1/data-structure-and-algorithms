@@ -22,28 +22,22 @@
  * @param {number[]} prices
  * @return {number}
  */
-var maxProfit = function (prices) {
-
-    let maxProfit = 0;
-    let buy = 0; // Pointer for buying price
-    let sell = 1; // Pointer for selling price
-
-    while (sell < prices.length) {
-        if (prices[sell] > prices[buy]) {
-            // If current selling price is greater than buying price,
-            // calculate the profit and update maxProfit if necessary
-            let profit = prices[sell] - prices[buy];
-            if (profit > maxProfit) {
-                maxProfit = profit;
-            }
-        } else {
-            // If current selling price is less than or equal to buying price,
-            // update the buying price to the current selling price
-            buy = sell;
-        }
-        // Move the selling pointer to the next day
-        sell++;
+var maxProfit = function(prices) {
+  let initialPrice = prices[0];
+  let currentProfit = 0;
+  let maxProfit = 0;
+  for(let j = 1; j < prices.length; j++){
+    if(prices[j] < initialPrice) {
+      initialPrice = prices[j];
     }
-
-    return maxProfit;
+    else {
+      const profit = prices[j] - initialPrice;
+      currentProfit += profit;
+      maxProfit = Math.max(maxProfit, currentProfit); // Compare with maxProfit
+    }
+  }
+  return maxProfit;
 };
+
+let result = maxProfit([7,1,5,3,6,4]);
+console.log(result);
