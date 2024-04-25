@@ -32,8 +32,8 @@ var maxProfit = function(prices) {
     }
     else {
       const profit = prices[j] - initialPrice;
-      currentProfit += profit;
-      maxProfit = Math.max(maxProfit, currentProfit); // Compare with maxProfit
+      currentProfit = profit;
+      maxProfit = Math.max(maxProfit, currentProfit);
     }
   }
   return maxProfit;
