@@ -31,3 +31,18 @@
 
 // 1 <= prices.length <= 3 * 104
 // 0 <= prices[i] <= 104
+
+function maxProfit(prices) {
+    let maxProfit = 0;
+    for (let i = 1; i < prices.length; i++) {
+        // If the current price is higher than the previous one, sell at the current price
+        if (prices[i] > prices[i - 1]) {
+            maxProfit += prices[i] - prices[i - 1];
+        }
+    }
+    return maxProfit;
+}
+
+// Example usage:
+const prices = [7, 1, 5, 3, 6, 4];
+console.log(maxProfit(prices)); // Output: 7
