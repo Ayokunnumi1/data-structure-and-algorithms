@@ -27,14 +27,10 @@
 
 ## 🚀 Hackerrank Tutorial Live Videos <a name="live-demo"></a>
 
-- Diagonal Difference: Given a square matrix, calculate the absolute difference between the sums of its diagonals
-- [Live Demo](https://www.loom.com/share/9323eaf47ec34210930bbbf2fe367f78?sid=1daf348f-5f77-4dd6-b1c8-70f590603896)
-
-- [Continuation of Live Demo](https://www.loom.com/share/5b3b7412d7b349dc8f0218617434d5d5?sid=79212e4b-2f63-48df-aafe-499a96c73034)
+- Diagonal Difference: Given a square matrix, calculate the absolute difference between the sums of its diagonals [Watch Video tutorial](https://www.loom.com/share/9323eaf47ec34210930bbbf2fe367f78?sid=1daf348f-5f77-4dd6-b1c8-70f590603896), [Continuation of Video tutorial](https://www.loom.com/share/5b3b7412d7b349dc8f0218617434d5d5?sid=79212e4b-2f63-48df-aafe-499a96c73034)
 
 
 
 ## 🚀 Leetcode Tutorial Live Videos <a name="live-demo"></a>
 
-- Merge Sorted Array: You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.Merge nums1 and nums2 into a single array sorted in non-decreasing order.
-- [Live Demo](https://youtu.be/X2Gl5h08gJY)
+- Merge Sorted Array: You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.Merge nums1 and nums2 into a single array sorted in non-decreasing order.[Watch Video tutorial](https://youtu.be/X2Gl5h08gJY)
